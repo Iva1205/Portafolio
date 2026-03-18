@@ -14,5 +14,7 @@
 }
 
 .cuadrado{
+   display:flex;
+  flex-direction:column;
   background-color:#1B28F5;
 }
