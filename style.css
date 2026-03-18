@@ -21,3 +21,7 @@
   flex-direction:column;
   background-color:#1B28F5;
 }
+
+.circulo{
+  border-radius:50%;
+}
