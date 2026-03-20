@@ -15,7 +15,7 @@
 }
 
 .elemento h1{
-  padding-top:0 px;
+  padding-top:10 px;
 }
 
 
@@ -26,6 +26,6 @@
 }
 
 .circulo{
-  border-radius:50px;
+  border-radius:80px;
   background-color:#F29B8A;
 }
