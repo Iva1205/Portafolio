@@ -1,6 +1,6 @@
 .contenedor{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   background-color:#F29B8A;
   align-items:center;
  justify-content:center;
@@ -14,10 +14,6 @@
   font-family: monospace , sans serif;
 }
 
-.elemento h1{
-  padding-top:10 px;
-}
-
 
 .cuadrado{
    display:flex;
@@ -28,4 +24,6 @@
 .circulo{
   border-radius:80px;
   background-color:#F29B8A;
+  width:100px;
+  height:100px;  
 }
