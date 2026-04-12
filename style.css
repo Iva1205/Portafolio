@@ -6,6 +6,7 @@
 }
 
 .galeria img{
+  transition:transform 0.3s ease,box-shadow 0.3s ease;
   width:100%;
   height:250px;
   object-fit:cover;
@@ -13,7 +14,15 @@
 
 }
 
+.galeria img:hover{
+  transform:scale (1.05);
+  box-shadow:0 8px 20px rgba(0,0,0,0.3);
+  z-index:10;
+  cursor:pointer;
+}
+
 .texto-especial{
+  transition:transform 0.3s ease,background-color 0.3s ease;
   grid-column:span 1;
   background-color:#ffffff;
   padding:20px;
@@ -25,15 +34,26 @@
   box-sizing:border-box;
 }
 
+.texto-especial:hover{
+ transform:scale (1.02);
+ background-color:#fff5f5;
+ box-shadow:0 8px 20px rgba (255, 182, 193, 0.4);
+}
+
 .texto-especial h2{
   margin:0 0 12px 0;
   font-size: 20px;
   color:#333;
 }
+  
+h1:hover{
+  color:#ff6b6b;
+  transition:color 0.3s ease;
 }
-
+  
 .texto-especial p{
   margin:0;
   font-size:15px;
   color:#666;
   line-height:1.4;
+}
