@@ -16,7 +16,7 @@
 .texto-especial{
   grid-column:span 2;
   background-color:#ffffff;
-  padding:24px;
+  padding:20px;
   border-radius:8px;
   display:flex;
   flex-direction:column;
