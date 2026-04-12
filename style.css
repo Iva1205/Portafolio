@@ -12,4 +12,19 @@
 
 }
 
+.texto-especial{
+  background-color:white;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
 
+.texto-especial h2{
+  margin:0 0 10px 0;
+  font-size: 18px;
+}
+
+.texto-especial p{
+  margin:0;
+  font-size:14px;
